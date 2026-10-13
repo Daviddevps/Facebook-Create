@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 250,245);
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#header{
+    background-color: rgb(15, 32,64);
+    color: white;
+    height:100px;
+    padding: 10px;
+    display: flex;
+
+}
+h2{
+    text-align: center;
+}
+
+.image{
+    width: 48.9%;
+    padding-right: 10px;
+    height: 350px;
+    object-fit: cover;
+    max-width: 600px;
+}
+#projects h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#projects h4 {
+    position: relative;
+    text-align: center;
+    
+}
+
+#header img{
+    width: 50px;
+
+}
+#header h1{
+    font-size:25px;
+    text-align: center;
+    
+}
+#navbar {
+    background-color: rgb(30,80,160);
+    justify-content: center;
+    text-align: center;
+
+}
+#navbar a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#navbar a:hover {
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+}
+/*footer*/
+#footer {
+    background-color:#1b4032;
+    color: #f5f5dc;
+    text-align: center;
+    padding:10px;
+
+}

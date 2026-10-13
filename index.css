@@ -1,0 +1,145 @@
+
+#header{
+    background-color: black;
+    color: white;
+    padding:15px;
+    text-align:center;
+
+    
+}
+body{
+    font-family: verdana ;
+    font-size:1rem;
+    margin: 0;
+    padding: 0;
+}
+#header h1{
+    font-size:50px;
+    font-family:verdana;
+}
+#header p{
+    font-size: 25px;
+}
+#navbar{
+    text-align:center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    background-color:grey;
+
+
+
+}
+.image{
+    width: 200px;
+    height: 300px;
+    margin-right: 15px;
+}
+.fullstack-text{
+    line-height: 2.0;
+    text-align:justify ;
+    padding:20px;
+}
+/*table style*/
+#course-table{
+    width:50%;
+    margin-top: 20px;
+    border:1px solid #ccc;
+    margin-left: 10px;
+
+}
+/* contact-form*/
+#reg-form{
+    margin-left:10px;
+    border: 3px solid black;
+    width: 25%;
+    padding: 25px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+.form-label{
+    display: block;
+    font-size:16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom:15px;
+    padding-top: 15px;
+    text-transform: capitalize;
+
+}
+.form-input{
+    padding:8px 10px;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:0.5px solid #ddd;
+    
+
+}
+#full-name{
+    border:-1px double #ddd;
+    border-radius:8px ;
+    padding:4%;
+    outline: none;
+}
+#full-name:hover{
+    border:0.5px solid black;
+
+}
+
+#submit-btn{
+    padding:8px 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    border:0.5px solid black;
+    margin-top: 20px;
+    transition:.4 ease;
+    color: green;
+
+}
+#submit-btn:hover{
+    background:black;
+    background: linear-gradient (#efefe2,#a5efe4,#ddd);
+
+}
+/*select*/
+
+.name{
+    margin:20px;
+}
+/*footer*/
+#footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height:50px;
+    padding-top:10px;
+}
+#footer p{
+    font-size: 15px;
+}
+.fullstack-img{
+    width:200px;
+    height:300px;
+    margin-left:15px;
+}
+
+
+
+
+
+#navbar a:hover{
+    text-decoration:underline;
+    color:black;
+    font-size: 20px;
+
+}
+#navbar a{
+    margin:12px;
+    text-decoration: none;
+    font-size: 18px;
+
+    
+}
